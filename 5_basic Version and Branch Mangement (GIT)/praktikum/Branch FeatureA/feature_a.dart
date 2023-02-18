@@ -1,7 +1,7 @@
 void main() {
   String ucapan = "Hallo ini adalah branch feature A";
 
-  String ucapan_kedua = "ini ucapan kedua";
-
-  print(ucapan);
+  //menambhakn perubahan di featureA
+  String nama = "Nama Saya Adalah Rouf";
+  print("Hallo $ucapan, $ucapan");
 }
