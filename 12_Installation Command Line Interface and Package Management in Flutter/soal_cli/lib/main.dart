@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:soal_cli/badge.dart';
+import 'package:soal_cli/barcode.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Hallo Alterra'),
+      // home: const badgeLatihan());
+      // home: barcodeLatihan()
     );
   }
 }
