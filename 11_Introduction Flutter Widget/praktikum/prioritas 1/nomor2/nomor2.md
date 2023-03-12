@@ -1,0 +1,1 @@
+**untuk screenshot ada di folder nomor2**
