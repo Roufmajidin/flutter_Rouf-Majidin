@@ -180,7 +180,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
     return Column(
       children: [
         TextFormField(
-          controller: _nameController..text,
+          controller: _nameController..text = listName,
           maxLength: 20,
           decoration: const InputDecoration(
             labelText: 'Name',
@@ -193,7 +193,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
         ),
         // text field nya
         TextFormField(
-          controller: _phoneController,
+          controller: _phoneController..text = listPhone,
           // initialValue: '+62',
           maxLength: 20,
           decoration: const InputDecoration(
