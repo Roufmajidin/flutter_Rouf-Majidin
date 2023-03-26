@@ -40,6 +40,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
           Kontak(_nameController.text, _phoneController.text, _currentColor));
 
       log("Sesudah Submit");
+      log('as');
       log("nama : ${_nameController.text}");
       log("nomor_telp : ${_nameController.text}");
       log("Color : ${_currentColor}");
