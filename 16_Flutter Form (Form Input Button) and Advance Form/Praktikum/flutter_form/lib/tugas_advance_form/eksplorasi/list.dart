@@ -40,6 +40,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
           Kontak(_nameController.text, _phoneController.text, _currentColor));
 
       log("Sesudah Submit");
+      log('as');
       log("nama : ${_nameController.text}");
       log("nomor_telp : ${_nameController.text}");
       log("Color : ${_currentColor}");
@@ -180,7 +181,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
     return Column(
       children: [
         TextFormField(
-          controller: _nameController..text,
+          controller: _nameController..text = listName,
           maxLength: 20,
           decoration: const InputDecoration(
             labelText: 'Name',
@@ -193,7 +194,7 @@ class _AdvanceFormEksplorasiState extends State<AdvanceFormEksplorasi> {
         ),
         // text field nya
         TextFormField(
-          controller: _phoneController,
+          controller: _phoneController..text = listPhone,
           // initialValue: '+62',
           maxLength: 20,
           decoration: const InputDecoration(
